@@ -1,10 +1,10 @@
 
 import './App.css';
-import MapComp from "./map"
+import InfintyScrollComp from "./scroll"
 function App() {
   return (
     <div className="App">
-<MapComp/>
+<InfintyScrollComp/>
     </div>
   );
 }
