@@ -1,10 +1,12 @@
 
 import './App.css';
-import InfintyScrollComp from "./scroll"
+import './optimized.css'; // Import optimized styles
+import InfintyScrollComp from "./scroll.optimized"
+
 function App() {
   return (
     <div className="App">
-<InfintyScrollComp/>
+      <InfintyScrollComp/>
     </div>
   );
 }
